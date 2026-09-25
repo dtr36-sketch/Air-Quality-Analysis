@@ -1,5 +1,5 @@
 # Question:
- ### How do seasonal patterns differ among pollutants within Pittsburgh across a 10 year period?
+ ### How do seasonal patterns differ among pollutants within Pittsburgh across a 9 year period?
 
 # Website / Dataframe: 
 	Source: Western Pennsylvania Regional Data Center
