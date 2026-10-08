@@ -1,5 +1,5 @@
 # Question:
- ### How do seasonal patterns differ among pollutants within Pittsburgh across a 9 year period?
+ ### How do seasonal patterns differ among pollutants within Pittsburgh across a 10 year period?
 
 # Website / Dataframe: 
 	Source: Western Pennsylvania Regional Data Center
@@ -44,7 +44,7 @@
 # What is the Comparison?
 
 1) ### Date
-	 (Group by seasonability (Over 9 years))
+	 (Group by seasonability (Over 10 years))
 
 2) ### Index
 	 (The numerical index pollution level OVERTIME (measurements))
@@ -54,8 +54,8 @@
 
 # Why did I find this interesting?
 
-* Some days within a seasonable period can have extreme days where pollutants can dramatically alter the data for the month(s) or season. Finding data like this is quite interesting to me, as it allows me to stop and look at said bumps, and note their effects for my explanation. Also since this is a 9 year period, the data should be a bit more smooth to explain and you can minimize the amount of jumps from the data saying why each point is super important.
+* Some days within a seasonable period can have extreme days where pollutants can dramatically alter the data for the month(s) or season. Finding data like this is quite interesting to me, as it allows me to stop and look at said bumps, and note their effects for my explanation. Also since this is a 10 year period, the data should be a bit more smooth to explain and you can minimize the amount of jumps from the data saying why each point is super important.
 
-* If I don’t find a clear or complete trend of how pollutants patterns are, with the addition of  scattered pollutants throughout a 10 year period, I would believe the project to be slightly at a loss, but not entirely. This would be an attempt for me to work on my critical thinking skills, to organize my data and how I want my data to run. It’s probably very likely that something like this will happen, and it may or may not be a part of my conclusion. And even then, I can take a portion of my data and minimize the time period to either 5 years, or 3 years and follow through from there.
+* If I don’t find a clear or complete trend of how pollutants patterns are with the addition of  scattered pollutants throughout a 10 year period, I would believe the project to be slightly at a loss, but not entirely. This would be an attempt for me to work on my critical thinking skills, to organize my data and how I want my data to run. It’s probably very likely that something like this will happen, and it may or may not be a part of my conclusion. And even then, I can take a portion of my data and minimize the time period to either 5 years, or 3 years and follow through from there.
 
 * This is an opportunity for me to work with a much larger set of data, and I would hope that the calculations I compute will be a bit more refined and not janky compared to a smaller set of data.
