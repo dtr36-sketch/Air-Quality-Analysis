@@ -24,5 +24,20 @@ Explain to:
 3. The Recruiter
 Allow AI to write this
 
+-----------------------
+We need:
+1) Introduction
+2) Backround & Motivation
+3) Data and Questions (We can do one of each level of AQI | 3 charts)
+4) Analytics Approach / Steps
+5) Results
+6) Discussion
+7) Recommendation
+8) Conclusion of skills from project
+9) References (WIP)
+------------------------
+
+
+
 1) Talk about the question (CONCLUSION)
 2) 
