@@ -8,7 +8,7 @@ With growing concern about the state of the environment worldwide and the effect
 
 The Allegheny County Health Department (ACHD) is a local government agency in Western Pennsylvania. It oversees a range of public health areas, including daily pollutant readings across the Pittsburgh Metropolitan Area, with each monitoring site having its own ID and location assigned.
 
-I became interested in this topic because of the dangerous pollutant levels I have experienced over the past five years, and I wanted to better understand how pollutant trends develop. I also wanted to challenge myself by working with a dataset independently, without instruction, and drawing a reasonable conclusion from it. This project gave me the chance to expand my analytical skills more broadly.
+I became interested in this topic because of being exposed to dangerous pollutant levels over the past five years, and I wanted to better understand how pollutant trends develop. I also wanted to challenge myself by working with a dataset independently, without instruction, and drawing a reasonable conclusion from it. This project gave me the chance to expand my analytical skills more broadly.
 
 ## Own Findings / Data Analysis Process
 
@@ -31,6 +31,10 @@ This dataset contains pollutant readings recorded daily across Pittsburgh neighb
 | `health_advisory` | string | Warning of dangerous air levels |
 | `health_effects` | string | Describes health effects from dangerous air levels |
 
+### Additional Columns added in project:
+        Month, Month_Name, Pollutant_Dictionary
+
+#
 Before checking for duplicates, the dataset was already quite clean, as every row contained the same number of non-null values. Even after removing duplicate locations, and pollutant readings from 2026, the row counts remained balanced across columns. There were also no missing values NaNs to delete or fill in, excluding the description columns.
 #
 ### Data Analysis Process
@@ -116,11 +120,15 @@ For this analysis we looked at 6 pollutants, that all had bundled variants (comi
 
 ## Discussion & Recommendation
 
-Reflecting on the results, several patterns stand out. Some pollutants tend to produce higher AQI values and others lower; The higher-AQI pollutants, such as ozone and PM2.5, follow a more organized and structured trend across the 10 years, while the lower-AQI pollutants, such as PM10 and CO, are more distorted and volatile. For roughly two-thirds of the 10 years, the trends for all pollutants follow a similar path; they are not identical, but they are close. Seasonally, each pollutant has its own AQI range and trajectory, and these differ in some years, with a few years standing out as outliers. Most notably, the data from the last few years, especially 2025, appears distorted or is beginning to become so. This suggests there may be more days with extreme pollutant levels, or more natural disasters contributing to the volatility.
+Reflecting on the results, several patterns stand out. Some pollutants tend to produce higher AQI values and others lower; The higher-AQI pollutants, such as Ozone and PM2.5, follow a more organized and structured trend across the 10 years, while the lower-AQI pollutants, such as PM10 and CO, are more distorted and volatile. For roughly two-thirds of the 10 years, the trends for all pollutants follow a similar path; they are not identical, but they are close. Seasonally, each pollutant has its own AQI range and trajectory, and these differ in some years, with a few years standing out as outliers. Most notably, the data from the last few years, especially 2025, appears distorted or is beginning to become so. This suggests there may be more days with extreme pollutant levels, or more natural disasters contributing to the volatility.
 
-Before making my recommendation, I should note that I am not an air quality specialist. I am an analyst who took a dataset and organized it into numerical and visual results for those who understand pollutants and other environmental factors. With that in mind, I recommend sending this analysis to the Allegheny air quality specialists so they can study the volatility of each pollutant by quarter over the past year. These recent outlier years, compared with the five years before them, are critical for forecasting. Studying them may help us project what is to come and decide what steps we need to take to reduce volatile and dangerous pollutant levels.
+Before making my recommendation, I should note that I am not an air quality specialist. I am an analyst who took a dataset and organized it into numerical and visual results for those who understand pollutants and other environmental factors. With that in mind, I recommend sending this analysis to the Allegheny air quality specialists for further investigation on the volatility of each pollutant by quarter over the past year. These recent outlier years, compared with the five years prior are a bit concerning being in the dataset, and are critical for forecasting. Studying them may help us project what is to come and decide what steps we need to take to reduce volatile and dangerous pollutant levels from occuring more frequently.
 
 ## Conclusion
+The main takeaway from this project was learning to take a complex, current changing raw dataset, group pollutants by their respective sources, and to create visuals that reveal trends over a long period of time. I used data analytics techniques to organize, group, average, and plot the data. The project also built my critical thinking skills and taught me to clearly define what needs to be accomplished and how to accomplish it.
+
+This analysis can help answer several smaller questions. For example, are changes in pollutant levels a natural result of the time of year (seasonly)? Do extreme days cause major shifts in the trends? Can we trust that this analysis provides accurate results? Can we assume there are external factors outside of this dataset that can cause volatility to the trends of data? The answers can guide a larger decision: whether to keep the data as it is, scrap the results and run a new analysis for more defined findings, or keep both versions for reference. Making that decision will help us build a rough forecast of what to expect from new data.
+
 
 ## References
 * Allegheny County Health Department, "Daily AQI Data", Western Pennsylvania Regional Data Center, September 10, 2026, https://data.wprdc.org/dataset/allegheny-county-air-quality/resource/4ab1e23f-3262-4bd3-adbf-f72f0119108b
