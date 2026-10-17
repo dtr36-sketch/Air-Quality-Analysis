@@ -1,4 +1,4 @@
-# Longevity of seasonal air pollutant trends within Pittsburgh
+# Longevity of Seasonal Air Pollutant Trends within Pittsburgh
 
 ## Introduction
 
